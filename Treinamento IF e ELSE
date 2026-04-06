@@ -1,0 +1,9 @@
+convite = int(input("insira 1 se você tem convite e 0 se não tiver: "))
+idade = int(input("Insira sua idade: "))
+nivel_de_acesso = int(input("Insira seu nivel de acesso 1 ate 3: "))
+
+if convite == 1 and idade >= 18 and nivel_de_acesso == 3:
+    print (" Você pode entrar ")
+
+else:
+     print(" Você não pode entrar ")
