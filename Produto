@@ -1,0 +1,20 @@
+nome = (input("Insira seu nome:"))
+tipo_de_presente = (input("Qual o tipo de presente?:"))
+nome_do_produto = (input("Nome do produto:"))
+marca = (input("Qual a marca do produto?:"))
+cor = (input("Qual a cor do produto?:"))
+tamanho = (input("Tamanho do produto?:"))
+Quantidade = int (input("Quantos produtos são?:"))
+preco = float(input("Qual o preço unitario do produto?:"))
+
+preço_cheio = preco * Quantidade
+
+print("Seu nome é:", nome)
+print("Seu tipo de presente é:", tipo_de_presente)
+print("O nome do produto é:", nome_do_produto)
+print("O nome da marca é:", marca)
+print("A cor do produto é:", cor)
+print("O tamanho do produto:", tamanho)
+print("A quantidade do seu produto é:", Quantidade)
+print("O preço unitario é:", preco)
+print("O preço total da sua compra é", preço_cheio)
