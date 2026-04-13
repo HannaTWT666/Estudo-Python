@@ -1,0 +1,10 @@
+nome = (input("Insira seu nome:"))
+idade = int (input("Sua idade: "))
+altura = float (input("Sua altura: "))
+peso = float (input("Seu peso:"))
+
+if idade >= 18 and altura >= 1.70 and peso >= 70:
+    print("Você pode entrar")
+    
+else:
+    print("Você não pode entrar")
