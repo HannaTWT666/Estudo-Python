@@ -1,21 +1,28 @@
 numero1 = float(input("Insira o numero 1: "))
 numero2 = int(input("Insira o numero 2: "))
 
-soma = (numero1 + numero2) /10 
+soma = numero1 + numero2  
 
 print("Seu resultado é: ", soma)
 
-resultado = float (input("Insira o resultado da conta anterior: "))
 numero3 = float(input ("insira o 3 numero: "))
 
-subtração =  resultado - numero3 
+subtração =  soma - numero3 
 
 print("Seu resultado é: ", subtração)
 
-resultado2 = float (input("Insira o segundo resultado: "))
 numero4 = float (input(" Insira o 4 numero:  "))
 
-divisão = resultado2 / numero4 
+divisão = subtração / numero4 
+
+print ("Resultado da divisão: ", divisão)
+
+numero5 = float (input("Insira o 5 numero: "))
+
+multiplicacão = (divisão * numero5) /10
+
+print("Seu resultado final é: ", multiplicacão)
+
 
 print ("Resultado da divisão: ", divisão)
 
